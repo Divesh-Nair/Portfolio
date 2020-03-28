@@ -13,7 +13,6 @@ body{
    transform: translateY(-50%); 
 }
 .carousel-caption h1{
-  
   font-weight: 500;
 }
 .carousel-caption h4{
@@ -39,6 +38,7 @@ body{
 .navbar li a.current{
   color: rgb(107, 28, 255)
 }
+
 
 .navbar-logo li a{
   color: rgb(221, 221, 221);
