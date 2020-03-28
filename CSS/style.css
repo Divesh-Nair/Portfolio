@@ -1,0 +1,72 @@
+body{
+  background-color: black;
+}
+
+.abs-center-x {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.carousel-caption{
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%); 
+}
+.carousel-caption h1{
+  font-weight: 500;
+}
+.carousel-caption h4{
+ padding-top: 10px;
+ padding-bottom: 25px;
+ font-weight: 200;
+}
+.navbar{
+  height:8.3vh;
+  background-color: black;
+}
+.navbar li a{
+  color: rgb(221, 221, 221);
+  font-size: 14px;
+  
+}
+.navbar li {
+  padding-right: 20px;
+}
+.navbar li a:hover{
+  color: rgb(148, 148, 148);
+}
+.navbar li a.current{
+  color: rgb(107, 28, 255)
+}
+
+.navbar-logo li a{
+  color: rgb(221, 221, 221);
+  font-size: 27px;
+  letter-spacing: 2px;
+  
+}
+.carousel-inner img{
+
+  opacity: 0.4;
+  height: 100%;
+  width: 100%;
+  
+}
+.btn-primary{
+  background-color: rgb(107, 28, 255);
+  border-color:  rgb(107, 28, 255);
+}
+.btn-primary:hover{
+  background-color: rgb(144, 86, 252);
+}
+.item{
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+footer{
+  padding:60px;
+  margin-top: 15px;
+  color: rgb(221, 221, 221);
+  background-color: rgb(27, 27, 27);
+}
