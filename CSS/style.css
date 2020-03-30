@@ -1,5 +1,5 @@
 body{
-  background-color: black;
+  background-color: rgb(14, 14, 14);
   color: rgb(221, 221, 221) !important;
 }
 
@@ -63,16 +63,26 @@ body{
   background-color: black;
   padding: 15px;
 }
+.modal .carousel img{
+opacity: 1 ;
+}
 
 .navbar  li a{
   color: rgb(221, 221, 221) !important;
   font-size: 14px;
 }
+.navbar .myDropdown{
+  background-color: black;
+}
+.navbar .myDropdown a:hover{
+  background-color: black;
+}
+
 .navbar li {
   padding-right: 20px;
 }
 .navbar li a:hover{
-  color: rgb(148, 148, 148);
+  color: rgb(148, 148, 148)  !important;
 }
 .navbar li a.active{
   color: rgb(107, 28, 255) !important;
@@ -112,6 +122,23 @@ footer{
   margin-top: 15px;
   color: rgb(221, 221, 221);
   background-color: rgb(27, 27, 27);
+}
+.gallery a{
+  width: 100%;
+ height: 100%;
+ overflow: hidden;
+}
+.gallery a img{
+  -webkit-transition: transform 0.2s, opacity 0.2s;
+  -moz-transition: transform 0.2s, opacity 0.2s;
+  -o-transition: transform 0.2s, opacity 0.2s;
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+.gallery a:hover img{
+  opacity: 0.6;
+  transform: scale(1.1);
+  
 }
 
 @media (max-width: 992px){
