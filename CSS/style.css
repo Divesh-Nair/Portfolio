@@ -3,6 +3,11 @@ body{
   color: rgb(221, 221, 221) !important;
 }
 
+.testtest img{
+ width: 100%;
+ height: 100%;
+}
+
 .abs-center-x {
     position: absolute;
     left: 50%;
