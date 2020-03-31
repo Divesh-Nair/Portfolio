@@ -3,10 +3,8 @@ body{
   color: rgb(221, 221, 221) !important;
 }
 
-.testtest img{
- width: 100%;
- height: 100%;
-}
+
+
 
 .abs-center-x {
     position: absolute;
@@ -27,6 +25,9 @@ body{
  padding-bottom: 25px;
  font-weight: 200;
  font-size: 160%;
+}
+.selectors .btn{
+margin:  5px;
 }
 
 .image-holder h1{ 
