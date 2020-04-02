@@ -2,6 +2,9 @@ body{
   background-color: rgb(14, 14, 14);
   color: rgb(221, 221, 221) !important;
 }
+html{
+  box-sizing: border-box;
+}
 
 
 
@@ -29,7 +32,10 @@ body{
 .selectors .btn{
 margin:  5px;
 }
-
+.card{
+  background-color: black;
+ 
+}
 .image-holder h1{ 
   font-size: 200%;
  }
