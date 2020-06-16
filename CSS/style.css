@@ -8,7 +8,6 @@ html{
 
 
 
-
 .abs-center-x {
     position: absolute;
     left: 50%;
@@ -34,6 +33,21 @@ margin:  5px;
 }
 .card{
   background-color: black;
+ 
+}
+
+.main{
+  min-height: 7vh ;
+}
+iframe{
+margin-top: 2vh;
+}
+
+.about{
+  padding-top: 20vh;
+  padding-bottom: 40vh;
+}
+.about-text{
  
 }
 .image-holder h1{ 
@@ -68,7 +82,7 @@ margin:  5px;
 }
 .navbar{
   background-color: black;
-  padding: 15px;
+  min-height: 7vh;
 }
 .modal .carousel img{
 opacity: 1 ;
